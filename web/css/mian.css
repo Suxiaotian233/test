@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #444;
+    position: relative;
+}
+.top_btn{
+    position: absolute;
+    display: block;
+    padding: 3px;
+    font-size: 18px;
+    background-color: #ddd;
+    top: 50px;
+    left: 50px;
+    border-radius: 5px;
+    border: 0px;
+    height: 22px;
+    color: #444444;
+    text-decoration: none;
+}
+.select_btn{
+    position: absolute;
+    display: inline-block;
+    top: 50px;
+    left: 650px;
+    padding: 3px;
+    height: 22px;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 18px;
+    border: 0px;
+    color: #444;
+    text-decoration: none;
+}
+.select_input{
+    position: absolute;
+    top: 50px;
+    left: 700px;
+    height: 28px;
+    outline: none;
+
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 22px;
+    border: 1px solid #444444;
+    min-height: 500px;
+    overflow: auto;
+    border-spacing: 0px;
+    text-indent: 2em;
+}
+
+tr,td{
+    border: 1px solid #bbb;
+    min-width: 150px;
+
+}
+.nav{
+    font-weight: bolder;
+}
+.insert{
+    position: absolute;
+    display: block;
+    border: 1px solid #bbb;
+    background-color: #ddd;
+    width: 80px;
+    color: #444;
+    text-decoration: none;
+    bottom: 80px;
+    left: 700px;
+    font-size: 18px;
+    text-align: center;
+}
